@@ -1,0 +1,37 @@
+{
+	"isitdown": {
+    "run": {
+      "expressions": [
+        "getleon.aiは稼働していますか？",
+        "mozilla.orgはダウンしていますか？",
+        "mozilla.orgはアップですか、それともダウンですか？",
+        "github.comは稼働していますか？",
+        "github.comはダウンしていますか？",
+        "github.comがアップまたはダウンしているかどうかを確認します",
+        "github.comがダウンしているかどうかを確認します",
+        "github.comが稼働しているかどうかを確認します",
+        "nodejs.orgがダウンしているかどうかを確認します",
+        "nodejs.orgが稼働しているかどうかを確認します",
+        "nodejs.orgが機能しているかどうかを確認します",
+        "amazon.comがアップまたはダウンしているかどうかを確認します"
+      ]
+    }
+  },
+	"haveibeenpwned": {
+    "run": {
+      "expressions": [
+        "iifeoluwa.ao@gmail.comはpwnされましたか？",
+        "iifeoluwa.ao@gmail.comが危険にさらされていますか？",
+        "iifeoluwa.ao@gmail.comが違反にさらされましたか？",
+        "iifeoluwa.ao@gmail.comはまだ妥協していませんか？",
+        "iifeoluwa.ao@gmail.comは危険にさらされていますか？",
+        "私のメールアドレスは作成されましたか？",
+        "iifeoluwa.ao@gmail.comとlouis.grenard@gmail.comが危険にさらされていないことを確認してください",
+        "iifeoluwa.ao@gmail.comとlouis.grenard@gmail.comがpwnされていないことを確認してください",
+        "iifeoluwa.ao@gmail.comとlouis.grenard@gmail.comが違反にさらされていないことを確認してください",
+        "iifeoluwa.ao@gmail.comのpwnageステータスを確認します",
+        "iifeoluwa.ao@gmail.comとlouis.grenard@gmail.comのpwnageステータスを確認します"
+      ]
+    }
+  }
+}

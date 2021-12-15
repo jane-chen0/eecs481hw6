@@ -16,6 +16,9 @@ const voices = {
   },
   'fr-FR': {
     VoiceId: 'Mathieu'
+  },
+  'ja-JP': {
+    VoiceId: 'Takumi'
   }
 }
 let client = { }

@@ -21,6 +21,12 @@ const voices = {
     languageCode: 'fr-FR',
     name: 'fr-FR-Wavenet-B',
     ssmlGender: 'MALE'
+  },
+  //TODO: added japanese
+  'ja-JP': {
+    languageCode: 'ja-JP',
+    name: 'ja-JP-Wavenet-C',
+    ssmlGender: 'MALE'
   }
 }
 let client = { }

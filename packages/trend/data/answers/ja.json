@@ -1,0 +1,74 @@
+{
+	"github": {
+    "limit_max": [
+      "GitHubのトレンドが多すぎるとのことですが、代わりに25のトレンドを紹介します。",
+      "％limit％GitHubのトレンドはたくさんありますが、代わりに25のトレンドを教えてください。"
+    ],
+    "reaching": [
+      "GitHubに到達しました。しばらくお待ちください...",
+      "GitHubにアクセスさせてください..."
+    ],
+    "today": [
+      "その日の％limit％GitHubトレンドは次のとおりです。<br><br><ul>％result％</ul>"
+    ],
+    "week": [
+      "今週の％limit％GitHubトレンドは次のとおりです。<br><br><ul>％result％</ul>"
+    ],
+    "month": [
+      "今月の％limit％GitHubのトレンドは次のとおりです。<br><br><ul>％result％</ul>"
+    ],
+    "today_with_tech": [
+      "％tech％テクノロジーの今日の％limit％GitHubトレンドは次のとおりです。<br><br><ul>％result％</ul>"
+    ],
+    "week_with_tech": [
+      "％tech％テクノロジーの今週の％limit％GitHubトレンドは次のとおりです。<br><br><ul>％result％</ul>"
+    ],
+    "month_with_tech": [
+      "％tech％テクノロジーの今月の％limit％GitHubトレンドは次のとおりです。<br><br><ul>％result％</ul>"
+    ],
+    "unreachable": [
+      "現時点ではGitHubにアクセスできません。しばらくしてから、もう一度お試しください。",
+      "GitHubにアクセスできません。しばらくしてからもう一度お試しください。",
+      "GitHubがダウンしているようです。しばらくしてから、もう一度お試しください。"
+    ],
+    "list_element": [
+      "<li>#%rank%. <a href=\"%repository_url%\" target=\"_blank\">%repository_name%</a> によって作成された <a href=\"%author_url%\" target=\"_blank\">%author_username%</a>と%stars_nb% 新しい星.</li>"
+    ]
+	},
+  "producthunt": {
+    "limit_max": [
+      "あまりにも多くのProduct Huntトレンドを要求しましたが、代わりに％new_limit％トレンドを提供します。",
+      "％limit％ Product Hunt のトレンドはたくさんありますが、代わりに ％new_limit％ のトレンドを教えてください。"
+    ],
+    "reaching": [
+      "Product Huntに到達しました、しばらくお待ちください...",
+      "ProductHuntにアクセスさせてください..."
+    ],
+    "today": [
+      "これが %limit% Product Hunt その日のトレンド:<br><br><ul>%result%</ul>"
+    ],
+    "specific_day": [
+      "これが %limit% Product Hunt のトレンド %date%:<br><br><ul>%result%</ul>"
+    ],
+    "unreachable": [
+      "現時点では Product Hunt にアクセスできません。しばらくしてから、もう一度お試しください。",
+      "Product Hunt にアクセスできません。しばらくしてから、もう一度お試しください。",
+      "Product Hunt がダウンしているようです。しばらくしてからもう一度お試しください。"
+    ],
+    "list_element": [
+      "<li>#%rank%. <a href=\"%post_url%\" target=\"_blank\">%product_name%</a> によって作成された <a href=\"%author_url%\" target=\"_blank\">%author_name%</a> と  %votes_nb% 投票.</li>"
+    ],
+    "list_element_with_unknown_maker": [
+      "<li>#%rank%. <a href=\"%post_url%\" target=\"_blank\">%product_name%</a> と %votes_nb% 投票. メーカーに関する情報はありません.</li>",
+      "<li>#%rank%. <a href=\"%post_url%\" target=\"_blank\">%product_name%</a> と %votes_nb% 投票. メーカーに関する情報が見つかりませんでした.</li>"
+    ],
+    "not_found": [
+      "その日に商品はありません。",
+      "その日に商品は見つかりませんでした。"
+    ],
+    "invalid_developer_token": [
+      "Product Hunt開発者トークンが無効です。有効なものを提供してください <a href=\"https://github.com/leon-ai/leon/blob/develop/packages/trend/README.md#product-hunt\" target=\"_blank\">これを読んで</a>.",
+      "有効な Product Hunt 開発者トークンを設定していません。有効なものを設定してください <a href=\"https://github.com/leon-ai/leon/blob/develop/packages/trend/README.md#product-hunt\" target=\"_blank\">これを読んで</a>."
+    ]
+  }
+}

@@ -17,6 +17,9 @@ const voices = {
   },
   'fr-FR': {
     voice: 'fr-FR_NicolasV3Voice'
+  },
+  'ja-JP': {
+    voice: 'ja-JP_EmiV3Voice'
   }
 }
 let client = { }

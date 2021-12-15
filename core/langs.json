@@ -17,6 +17,12 @@
           "action": "run"
         }
       ]
+    },
+    "ja-JP": {
+      "short": "ja",
+      "min_confidence": 0.5,
+      "fallbacks": [
+      ]
     }
 	}
 }

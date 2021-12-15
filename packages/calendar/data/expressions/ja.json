@@ -1,0 +1,197 @@
+{
+    "todolist": {
+      "create_list": {
+        "expressions": [
+          "xリストを作成する",
+          "xリストを作成する"
+        ],
+        "entities": [
+          {
+            "type": "trim",
+            "name": "list",
+            "conditions": [
+              {
+                "type": "before_first",
+                "to": "リ"
+              }
+            ]
+          }
+        ]
+      },
+      "view_lists": {
+        "expressions": [
+          "すべてのリストを表示する",
+          "すべてのリストを表示",
+          "リストは何ですか？",
+          "私のリストは何ですか？"
+        ]
+      },
+      "view_list": {
+        "expressions": [
+          "xリストを表示",
+          "xリストを表示する",
+          "私のxリストには何がありますか？",
+          "xリストには何がありますか？"
+        ],
+        "entities": [
+          {
+            "type": "trim",
+            "name": "list",
+            "conditions": [
+              {
+                "type": "before_first",
+                "to": "リ"
+              },
+              {
+                "type": "between",
+                "from": "の",
+                "to": "リ"
+              }
+            ]
+          }
+        ]
+      },
+      "rename_list": {
+        "expressions": [
+          "xリストの名前をyに変更します",
+          "xリストの名前をyに変更します"
+        ],
+        "entities": [
+          {
+            "type": "trim",
+            "name": "old_list",
+            "conditions": [
+              {
+                "type": "before_first",
+                "to": "リ"
+              }
+            ]
+          },
+          {
+            "type": "trim",
+            "name": "new_list",
+            "conditions": [
+              {
+                "type": "between",
+                "from": "を",
+                "to": "に"
+              }
+            ]
+          }
+        ]
+      },
+      "delete_list": {
+        "expressions": [
+          "xリストを削除します",
+          "xリストを削除する"
+        ],
+        "entities": [
+          {
+            "type": "trim",
+            "name": "list",
+            "conditions": [
+              {
+                "type": "before_first",
+                "to": "リ"
+              }
+            ]
+          }
+        ]
+      },
+      "add_todos": {
+        "expressions": [
+          "xをリストxに追加します",
+          "xをリストに追加x"
+        ],
+        "entities": [
+          {
+            "type": "trim",
+            "name": "todos",
+            "conditions": [
+              {
+                "type": "before_first",
+                "to": "を"
+              }
+            ]
+          },
+          {
+            "type": "trim",
+            "name": "list",
+            "conditions": [
+              {
+                "type": "between",
+                "from": "ト",
+                "to": "に"
+              },
+              {
+                "type": "after_last",
+                "to": "加"
+              }
+            ]
+          }
+        ]
+      },
+      "complete_todos": {
+        "expressions": [
+          "xリストからxを確認します",
+          "xリストからxを確認してください",
+          "xリストからxを完成させます",
+          "xリストからxにチェックマークを付けます"
+        ],
+        "entities": [
+          {
+            "type": "trim",
+            "name": "todos",
+            "conditions": [
+              {
+                "type": "between",
+                "from": "ら",
+                "to": "を"
+              }
+            ]
+          },
+          {
+            "type": "trim",
+            "name": "list",
+            "conditions": [
+              {
+                "type": "before_first",
+                "to": "リ"
+              }
+            ]
+          }
+        ]
+      },
+      "uncheck_todos": {
+        "expressions": [
+          "xリストからxのチェックを外します",
+          "xリストからxのチェックを外します",
+          "xリストからxのチェックを外します"
+        ],
+        "entities": [
+          {
+            "type": "trim",
+            "name": "todos",
+            "conditions": [
+              {
+                "type": "between",
+                "from": "ら",
+                "to": "の"
+              }
+            ]
+          },
+          {
+            "type": "trim",
+            "name": "list",
+            "conditions": [
+              {
+                "type": "before_first",
+                "to": "リ"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+  

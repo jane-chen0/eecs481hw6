@@ -1,0 +1,27 @@
+{
+	"github": {
+    "run": {
+      "expressions": [
+        "GitHubのトレンドは何ですか？",
+        "GitHubのトレンドを教えてください",
+        "GitHubのトレンドは何ですか？",
+        "GHのトレンドは何ですか？",
+        "GHのトレンドを教えてください",
+        "GHのトレンドは何ですか？"
+      ]
+    }
+  },
+  "producthunt": {
+    "run": {
+      "expressions": [
+        "Product Huntのトレンドは何ですか？",
+        "Product Huntのトレンドを教えてください",
+        "Product Huntのトレンドは何ですか？",
+        "PHのトレンドは何ですか？",
+        "PHのトレンドを教えてください",
+        "PHのトレンドは何ですか？",
+        "Product Huntのトレンドは何ですか？"
+      ]
+    }
+  }
+}

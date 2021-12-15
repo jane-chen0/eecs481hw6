@@ -1,0 +1,81 @@
+{
+	"todolist": {
+    "list_created": [
+      "了解しました。 \"%list%\" リストを作成しました。",
+      "完了しました。  \"%list%\" リストを作成しました。"
+    ],
+    "list_not_provided": [
+      "リスト名を教えてください。",
+      "リストの名前を入力してください。"
+    ],
+    "todos_not_provided": [
+      "アイテムを教えてください。",
+      "要素を提供してください。"
+    ],
+    "new_or_old_list_not_provided": [
+      "名前を変更するリスト名とその新しいリスト名を必ず指定してください。",
+      "名前を変更するリスト名とその新しいリスト名を入力してください。"
+    ],
+    "no_list": [
+      "リストがありません。",
+      "表示するリストはありません。"
+    ],
+    "empty_list": [
+      "\"%list%\" リストは空です。",
+      "\"%list%\" リストには何もありません。"
+    ],
+    "list_does_not_exist": [
+      "申し訳ありませんが、  \"%list%\" が存在しないためできません。",
+      "\"%list%\" が存在しないため、それはできません。"
+    ],
+    "list_already_exists": [
+      "すでに \"%list%\" という名前のリストがあります。"
+    ],
+    "list_renamed": [
+      "\"％old_list％\" リストの名前を \"％new_list％\" に変更しました。"
+    ],
+    "list_deleted": [
+      "\"％list％\" リストとそれに含まれるすべてのtodoを削除しました。"
+    ],
+    "lists_listed": [
+      "％lists_nb％リストがあります。それらをリストアップさせてください：<br><br><ul>％result％</ul>"
+    ],
+    "list_list_element": [
+      "<li>\"％list％\" 、その中に ％todos_nb％ 要素が含まれています。</li>",
+      "<li>％todos_nb％アイテムを含む \"％list％\".</li>"
+    ],
+    "no_unchecked_todo": [
+      "\"％list％\" に進行中の要素がありません list.",
+      "\"％list％\" に進行中の要素がありません list."
+    ],
+    "no_completed_todo": [
+      "そして、あなたはあなたの \"％list％\" の要素を完了していません list.",
+      "また、 \"％list％\" に完成した要素がありません list."
+    ],
+    "unchecked_todos_listed": [
+      "\"％list％\" の進行中の要素は次のとおりです list:<br><br><ul>%result%</ul><br>やる気を維持してください！",
+      "\"％list％\" の進行中の要素を見つけてください list:<br><br><ul>%result%</ul><br>立ち止まるな！"
+    ],
+    "completed_todos_listed": [
+      "そして、これがあなたの \"％list％\" の完成した要素です list:<br><br><ul>%result%</ul>"
+    ],
+    "list_todo_element": [
+      "<li>%todo%.</li>"
+    ],
+    "list_completed_todo_element": [
+      "<li><strike>%todo%</strike>.</li>"
+    ],
+    "todos_added": [
+      "了解しました。以下を \"%list%\" に追加しました list:<br><br><ul>%result%</ul>",
+      "\"％list％\" に以下が追加されました list:<br><br><ul>%result%</ul>"
+    ],
+    "todos_unchecked": [
+      "\"％list％\" から次のチェックを外しました list:<br><br><ul>%result%</ul>",
+      "以下は、\"％list％\" のチェックが外されています list:<br><br><ul>%result%</ul>"
+    ],
+    "todos_completed": [
+      "立ち止まるな！あなたの \"％list％\"から次のことを完了しました list:<br><br><ul>%result%</ul>",
+      "「よくできました！ \"％list％\"から次の情報が完成しました list:<br><br><ul>%result%</ul>"
+    ]
+	}
+}
